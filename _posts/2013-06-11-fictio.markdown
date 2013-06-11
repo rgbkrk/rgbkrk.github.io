@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Automating Used Book Inventories"
+date:   2013-06-11 11:54:05
+categories: [open source,used books,bookstores,inventory,inventories]
+---
+
+I love books. Really love books.
+
+Amazon and used book stores make the most money off of me.
+
+
+## Proposal
+
+Create open source software to allow used book stores to rapidly bring in more used books, while maintaining inventory.
+
+In reality, my wife and I would love to start a used book store and coffee shop. Seeing as I have a coding career ahead of me (and no capital), I'm just going to start building this.
+
