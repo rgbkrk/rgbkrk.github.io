@@ -5,9 +5,19 @@ date:   2013-06-11 11:54:05
 categories: [open source,used books,bookstores,inventory,inventories]
 ---
 
-I love books. Really love books.
+I love books. Really love books. New, used, tattered, torn, I don't care. Books are great.
 
-Amazon and used book stores make the most money off of me.
+My wife and I buy the biggest quantity of books from used book stores. Technical books are purchased at Amazon, though sometimes I'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
+
+The greatest thing for us, about used book stores is that they **always** have a decent section of children's books. We almost always end up buying some new used books for our daughter and kids in the neighborhood whenever we visit.
+
+A problem that I see at every used book store I go to is that they always have piles of books but no good system for entering books into a system or making the inventories available online. Powell's seems to do this well (as does Amazon), but I can't browse Powell's like a good old fashioned book store as I don't live in Oregon.
+
+Some little digging around on the internet points to their being a lot of meh consignment software.
+
+What I'd like to enable is used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
+
+http://www.abebooks.com/homebase/software-inventory-management-system-catalog/
 
 
 ## Proposal
@@ -15,4 +25,31 @@ Amazon and used book stores make the most money off of me.
 Create open source software to allow used book stores to rapidly bring in more used books, while maintaining inventory.
 
 In reality, my wife and I would love to start a used book store and coffee shop. Seeing as I have a coding career ahead of me (and no capital), I'm just going to start building this.
+
+# Ingest
+
+Create a simple to deploy standalone machine that allows customers to scan books in, pick a price, and add them to the database.
+
+## Raspberry Pi
+
+From a technical perspective, I see making an SD Card image for a Raspberry Pi that is preloaded with the software, is easy to configure on boot, and super stupid simple to use.
+
+
+* It is fairly inexpensive
+
+* USB devices
+    * Scanner
+
+I'm not stuck on the Raspberry Pi, as we could build this to run on Android, iOS, or [Linux for dead badgers](http://www.amazon.com/books/dp/1894953479).
+
+http://www.newegg.com/Barcode-Scanners/SubCategory/ID-583
+
+I did not realize just how expensive barcode scanners were. The price range goes from $25 to $200. Perhaps that isn't too bad, but compared to putting everything on an Android
+
+
+The dangled mess that can become the Raspberry Pi 
+
+
+The primary reason I suggest the Raspberry Pi
+
 
