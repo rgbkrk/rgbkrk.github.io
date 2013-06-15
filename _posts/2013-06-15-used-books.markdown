@@ -7,7 +7,7 @@ categories: [open source,used books,bookstores,inventory,inventories]
 
 I love books. Really love books. New, used, tattered, torn, I don't care. Books are great.
 
-My wife and I buy the biggest quantity of books from used book stores. Technical books are purchased on Amazon, though sometimes I'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
+My wife and I buy the biggest quantity of books from used book stores. Technical books are purchased on Amazon, though sometimes we'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
 
 The greatest thing for us about used book stores is that they **always** have a decent section of children's books (which are always timeless). We end up buying some new used books at [ReReads](http://rereadsonline.com/) for our daughter and kids in the neighborhood whenever we visit, since most are around one or two dollars. We're moving to San Antonio this week, so we look forward to [Half Price Books](http://www.hpb.com) as it appears to have a streamlined process, an active site and decent prices.
 
@@ -19,7 +19,7 @@ There is a problem at many of the smaller used book stores we've been to though.
 
 Many used book stores have piles of books but don't appear to have a good system for entering them into a system or putting inventories online. There are stores/sites that do (Powell's, Half Price Books, and partially Amazon and their resellers), but all the small shops look like they're being crushed under piles of books.
 
-I want those books moving, fluidly, into the hands of other avid readers.
+We want those books moving, fluidly, into the hands of other avid readers.
 
 Software exists to help with [inventory](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) and resale, but it doesn't go all the way and certainly isn't open source.
 
@@ -37,35 +37,4 @@ There are some clearcut software components here and a slight picture of the har
 
 My wife and I would love to start a nonprofit used book store and coffee shop, but we're not ready for that yet. We'll start building the software and work towards our side goal.
 
-## Proposal
-
-Create open source software to allow used book stores to rapidly bring in more used books effectively, while maintaining inventory, promoting business by making it available online, and tracking inventory flow.
-
-
-# Ingest
-
-Create a simple to deploy standalone machine that allows customers to scan books in, pick a price, and add them to the database.
-
-## Raspberry Pi
-
-From a technical perspective, I see making an SD Card image for a Raspberry Pi that is preloaded with the software, is easy to configure on boot, and super stupid simple to use.
-
-
-* It is fairly inexpensive
-
-* USB devices
-    * Scanner
-
-I'm not stuck on the Raspberry Pi, as we could build this to run on Android, iOS, or [Linux for dead badgers](http://www.amazon.com/books/dp/1894953479).
-
-http://www.newegg.com/Barcode-Scanners/SubCategory/ID-583
-
-I did not realize just how expensive barcode scanners were. The price range goes from $25 to $200. Perhaps that isn't too bad, but compared to putting everything on an Android
-
-
-The dangled mess that can become the Raspberry Pi 
-
-
-The primary reason I suggest the Raspberry Pi
-
-
+If you want to join us on this adventure, hit me up on GitHub or Twitter.
