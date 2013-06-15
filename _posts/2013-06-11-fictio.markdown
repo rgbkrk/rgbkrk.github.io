@@ -29,16 +29,13 @@ If we were to design a used book store, we would build a co-op or non-profit boo
 
 * The book station would be a simple terminal with a scanner, a screen, a keyboard, and a little receipt printer.
 
-* After they scan their books in and either enter information or pull it from the web, they get a printout listing their donation amounts.
+* After they scan their books in and either enter information or pull it from the web, they get a printout listing their donation amounts. As a bonus, tell them where to put the books.
 
-* On the backend, books ingested will be placed online **immediately** so customers can search for the books.
+* On the back end, books ingested will be placed online **immediately** so eager readers can find the books.
 
-As a software engineer, I see the components of the software stack here. I did a little bit of digging around on the internet, and found a bunch of fairly niche or outdated consignment software. [Abe books](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) had the best software that wasn't completely coupled to their own systems.
+There are some clearcut software components here and a slight picture of the hardware stack. So as not to subject myself completely to Not Invented Here syndrome, I did a little bit of digging around. There was a clear market for consignment software, but a lot of it was fairly niche or outdated. The one exception was [Abe books](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) which had the best software that wasn't completely coupled to their own systems or living in the nineties. However, as an open source zealot none of these match what I want for the future, which is community maintained software that anyone can contribute to. We'd like to enable used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
 
-In reality, my wife and I would love to start a used book store and coffee shop. Seeing as I have a coding career ahead of me (and no capital), I'm just going to start building this.
-
-With these thoughts in mind, I think it's up to us to build the software and systems in a way that we would be able to deploy it very easily. What I'd like to enable is used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
-
+My wife and I would love to start a nonprofit used book store and coffee shop, but we're not ready for that yet. We'll start building the software and work towards our side goal.
 
 ## Proposal
 
