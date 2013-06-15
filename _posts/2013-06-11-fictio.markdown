@@ -7,24 +7,43 @@ categories: [open source,used books,bookstores,inventory,inventories]
 
 I love books. Really love books. New, used, tattered, torn, I don't care. Books are great.
 
-My wife and I buy the biggest quantity of books from used book stores. Technical books are purchased at Amazon, though sometimes I'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
+My wife and I buy the biggest quantity of books from used book stores. Technical books are purchased on Amazon, though sometimes I'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
 
-The greatest thing for us, about used book stores is that they **always** have a decent section of children's books. We almost always end up buying some new used books for our daughter and kids in the neighborhood whenever we visit.
+The greatest thing for us about used book stores is that they **always** have a decent section of children's books (which are always timeless). We end up buying some new used books at [ReReads](http://rereadsonline.com/) for our daughter and kids in the neighborhood whenever we visit, since most are around one or two dollars. We're moving to San Antonio this week, so we look forward to [Half Price Books](http://www.hpb.com) as it appears to have a streamlined process, an active site and decent prices.
 
-A problem that I see at every used book store I go to is that they always have piles of books but no good system for entering books into a system or making the inventories available online. Powell's seems to do this well (as does Amazon), but I can't browse Powell's like a good old fashioned book store as I don't live in Oregon.
+There is a problem at many of the smaller used book stores we've been to though.
 
-Some little digging around on the internet points to their being a lot of meh consignment software.
+# Piles of Books
 
-What I'd like to enable is used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
+![Piles of Books](https://lh5.googleusercontent.com/-yFKuvoRrgTU/UAXAfFVnpQI/AAAAAAAAADQ/T8qI8ErfM-Y/w640-h480-no/ReReads)
 
-http://www.abebooks.com/homebase/software-inventory-management-system-catalog/
+Many used book stores have piles of books but don't appear to have a good system for entering them into a system or putting inventories online. There are stores/sites that do (Powell's, Half Price Books, and partially Amazon and their resellers), but all the small shops look like they're being crushed under piles of books.
+
+I want those books moving, fluidly, into the hands of other avid readers.
+
+Software exists to help with [inventory](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) and resale, but it doesn't go all the way and certainly isn't open source.
+
+If we were to design a used book store, we would build a co-op or non-profit bookstore like so:
+
+* Create a station where people scan their own books in and name the price that people would want others to buy it for at the store.
+
+* The book station would be a simple terminal with a scanner, a screen, a keyboard, and a little receipt printer.
+
+* After they scan their books in and either enter information or pull it from the web, they get a printout listing their donation amounts.
+
+* On the backend, books ingested will be placed online **immediately** so customers can search for the books.
+
+As a software engineer, I see the components of the software stack here. I did a little bit of digging around on the internet, and found a bunch of fairly niche or outdated consignment software. [Abe books](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) had the best software that wasn't completely coupled to their own systems.
+
+In reality, my wife and I would love to start a used book store and coffee shop. Seeing as I have a coding career ahead of me (and no capital), I'm just going to start building this.
+
+With these thoughts in mind, I think it's up to us to build the software and systems in a way that we would be able to deploy it very easily. What I'd like to enable is used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
 
 
 ## Proposal
 
-Create open source software to allow used book stores to rapidly bring in more used books, while maintaining inventory.
+Create open source software to allow used book stores to rapidly bring in more used books effectively, while maintaining inventory, promoting business by making it available online, and tracking inventory flow.
 
-In reality, my wife and I would love to start a used book store and coffee shop. Seeing as I have a coding career ahead of me (and no capital), I'm just going to start building this.
 
 # Ingest
 
