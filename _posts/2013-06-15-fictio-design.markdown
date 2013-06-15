@@ -7,8 +7,7 @@ categories: [open source,used books,bookstores,inventory,inventories]
 
 # Proposal
 
-Create open source software to allow used book stores to rapidly bring in more used books effectively, while maintaining inventory, promoting business by making it available online, and tracking inventory flow.
-
+Create open source software to allow used book stores to rapidly bring in more used books effectively while maintaining inventory, enabling purchase online, and tracking inventory flow.
 
 # Ingest
 

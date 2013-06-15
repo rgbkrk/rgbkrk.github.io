@@ -19,21 +19,29 @@ There is a problem at many of the smaller used book stores we've been to though.
 
 Many used book stores have piles of books but don't appear to have a good system for entering them into a system or putting inventories online. There are stores/sites that do (Powell's, Half Price Books, and partially Amazon and their resellers), but all the small shops look like they're being crushed under piles of books.
 
-We want those books moving, fluidly, into the hands of other avid readers.
+*We want those books moving, fluidly, into the hands of other avid readers.*
 
 Software exists to help with [inventory](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) and resale, but it doesn't go all the way and certainly isn't open source.
 
-If we were to design a used book store, we would build a co-op or non-profit bookstore like so:
+# Used Book Ingest
 
-* Create a station where people scan their own books in and name the price that people would want others to buy it for at the store.
+If we started an idealized nonprofit used bookstore, this is how we would ingest and sell books:
 
-* The book station would be a simple terminal with a scanner, a screen, a keyboard, and a little receipt printer.
+* Create a station for people to scan their own books in
 
-* After they scan their books in and either enter information or pull it from the web, they get a printout listing their donation amounts. As a bonus, tell them where to put the books.
+* Let donors pick the price for others to buy it from the store
 
-* On the back end, books ingested will be placed online **immediately** so eager readers can find the books.
+* Pull up information based on the ISBN
 
-There are some clearcut software components here and a slight picture of the hardware stack. So as not to subject myself completely to Not Invented Here syndrome, I did a little bit of digging around. There was a clear market for consignment software, but a lot of it was fairly niche or outdated. The one exception was [Abe books](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) which had the best software that wasn't completely coupled to their own systems or living in the nineties. However, as an open source zealot none of these match what I want for the future, which is community maintained software that anyone can contribute to. We'd like to enable used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
+* People scan their own books inname the price that people would want others to buy it for at the store.
+
+
+
+* **Give donors an itemized receipt of their donation**. As a bonus, tell them where to put the books.
+
+* After ingest, **place books online immediately**.
+
+There are some clearcut software components here and a slight picture of a hardware stack. So as not to subject myself completely to Not Invented Here syndrome, I did a little bit of digging around. There was a clear market for consignment software, but a lot of it was fairly niche or outdated. The one exception, as mentioned above, was [Abe books](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/). They had the best software that wasn't completely coupled to their own systems or living in the nineties. However, as an open source zealot none of these match what I want for the future, which is community maintained software that anyone can contribute to. We'd like to enable used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
 
 My wife and I would love to start a nonprofit used book store and coffee shop, but we're not ready for that yet. We'll start building the software and work towards our side goal.
 
