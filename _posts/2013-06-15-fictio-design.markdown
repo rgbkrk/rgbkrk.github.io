@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Fict.io Design"
-date:   2013-06-11 11:54:05
+date:   2013-06-15 11:54:05
 categories: [open source,used books,bookstores,inventory,inventories]
 ---
 
-
-## Proposal
+# Proposal
 
 Create open source software to allow used book stores to rapidly bring in more used books effectively, while maintaining inventory, promoting business by making it available online, and tracking inventory flow.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automating Used Book Inventories"
-date:   2013-06-11 11:54:05
+date:   2013-06-15 09:36:54
 categories: [open source,used books,bookstores,inventory,inventories]
 ---
 
