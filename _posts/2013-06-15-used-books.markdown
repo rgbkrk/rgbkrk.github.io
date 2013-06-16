@@ -7,11 +7,11 @@ categories: [open source,used books,bookstores,inventory,inventories]
 
 I love books. Really love books. New, used, tattered, torn, I don't care. Books are great.
 
-My wife and I buy the biggest quantity of books from used book stores. Technical books are purchased on Amazon, though sometimes we'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
+My wife and I buy the biggest quantity of books from used book stores. The greatest thing for us about used book stores is that they **always** have a decent section of children's books (which are always timeless). We end up buying some new used books at [ReReads](http://rereadsonline.com/) for our daughter and kids in the neighborhood whenever we visit, since most are around one or two dollars. We're moving to San Antonio this week, so we look forward to [Half Price Books](http://www.hpb.com) as it appears to have a streamlined process, an active site and decent prices.
 
-The greatest thing for us about used book stores is that they **always** have a decent section of children's books (which are always timeless). We end up buying some new used books at [ReReads](http://rereadsonline.com/) for our daughter and kids in the neighborhood whenever we visit, since most are around one or two dollars. We're moving to San Antonio this week, so we look forward to [Half Price Books](http://www.hpb.com) as it appears to have a streamlined process, an active site and decent prices.
+Technical books, the books I really need, are typically purchased on Amazon. Sometimes I'll get them from a brick and mortar store if the price is right or I want it *right now*. Used book stores almost never satisfy my craving for technical books, as I have no desire to buy books about Office 97.
 
-There is a problem at many of the smaller used book stores we've been to though.
+There is one glaring issue we have seen across many of the smaller used book stores though.
 
 # Piles of Books
 
