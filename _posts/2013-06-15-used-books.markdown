@@ -15,13 +15,13 @@ There is a problem at many of the smaller used book stores we've been to though.
 
 # Piles of Books
 
-![Piles of Books](https://lh5.googleusercontent.com/-yFKuvoRrgTU/UAXAfFVnpQI/AAAAAAAAADQ/T8qI8ErfM-Y/w640-h480-no/ReReads)
+![Piles of Books](http://i.imgur.com/kSmtbDI.jpg)
 
 Many used book stores have piles of books but don't appear to have a good system for entering them into a system or putting inventories online. There are stores/sites that do (Powell's, Half Price Books, and partially Amazon and their resellers), but all the small shops look like they're being crushed under piles of books.
 
 *We want those books moving, fluidly, into the hands of other avid readers.*
 
-Software exists to help with [inventory](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/) and resale, but it doesn't go all the way and certainly isn't open source.
+Software exists to help with [inventory and resale](http://www.abebooks.com/homebase/software-inventory-management-system-catalog/), but it doesn't go all the way and certainly isn't open source.
 
 # Used Book Ingest
 
