@@ -17,7 +17,7 @@ There is one glaring issue we have seen across many of the smaller used book sto
 
 ![Piles of Books](http://i.imgur.com/kSmtbDI.jpg)
 
-Many used book stores have piles of books but don't appear to have a good system for entering them into a system or putting inventories online. There are stores/sites that do (Powell's, Half Price Books, and partially Amazon and their resellers), but all the small shops look like they're being crushed under piles of books.
+Many used book stores have piles of books but don't appear to have a good system for entering them into a system, putting inventories online and sometimes don't have a way to display all of their books. There are stores/sites that do (Powell's, Half Price Books, and partially Amazon and their resellers), but all the small shops look like they're being crushed under piles of books.
 
 *We want those books moving, fluidly, into the hands of other avid readers.*
 
@@ -27,11 +27,11 @@ Software exists to help with [inventory and resale](http://www.abebooks.com/home
 
 If we started an idealized nonprofit used bookstore, this is how we would ingest and sell books:
 
-* Create a station where **donors scan their own books** into the system
+* **Donors scan their own books** into a simple terminal
 
 * **Donors pick the price** for others to buy it from the store
 
-* **Retrive book information from the web** and allow the donor to fix the entry
+* **Retrieve book information from the web** and allow the donor to fix the entry
 
 * **Give donors an itemized receipt of their donation**. As a bonus, tell them where to put the books
 
