@@ -43,5 +43,4 @@ However, as an open source zealot none of these match what I want for the future
 
 My wife and I would love to start a nonprofit used book store and coffee shop, but we're not ready for that yet. We'll start building the software and work towards this side goal.
 
-If you want to join us on this adventure, hit me up on GitHub or Twitter.
-
+If you want to join us on this adventure, hit me up on [GitHub](http://github.com/rgbkrk/) or [Twitter](http://twitter.com/rgbkrk/).
