@@ -41,6 +41,6 @@ There are some clearcut software components here and a slight picture of a hardw
 
 However, as an open source zealot none of these match what I want for the future, which is community maintained software that anyone can contribute to. We'd like to enable used book stores, co-ops, new book stores, really anyone wanting to track inventory of books with ISBNs.
 
-My wife and I would love to start a nonprofit used book store and coffee shop, but we're not ready for that yet. We'll start building the software and work towards this side goal.
+My wife and I would love to start a nonprofit used book store and coffee shop, but we're not ready for that yet. We'd love to start building the software and work towards this side goal.
 
-If you want to join us on this adventure, hit me up on [GitHub](http://github.com/rgbkrk/) or [Twitter](http://twitter.com/rgbkrk/).
+If you want to join us on this adventure, hit me up on [Twitter](http://twitter.com/rgbkrk/) or [GitHub](http://github.com/rgbkrk/).
