@@ -34,6 +34,40 @@ table {
   font: 100%;
 }
 
+
+blockquote {
+	padding-top: 20px;
+	overflow: hidden; /* clearfix alternative */
+	font-size: 18px;
+	line-height: 150%;
+	color: #454545;
+}
+
+blockquote:before {
+	display: block;
+	float: left;
+	margin: 10px 15px 0 0;
+	font-size: 100px;
+	content: open-quote;
+	color: #bababa;
+	text-shadow: 0 1px 1px #909090;
+}
+
+blockquote:after {
+  display: block;
+  float: right;
+  margin: 30px 0px 0px 0px;
+  font-size: 100px;
+  content: close-quote;
+  color: #bababa;
+  text-shadow: 0 1px 1px #909090;
+}
+
+cite {
+  font-size: 0.75em;
+  text-align: right;
+}
+
 /*****************************************************************************/
 /*
 /* Home
