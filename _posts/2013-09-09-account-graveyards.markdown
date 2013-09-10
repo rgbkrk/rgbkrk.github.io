@@ -21,5 +21,5 @@ Pretty sure I've kept the same Facebook account over time, even though I've "del
 
 This makes me wonder.
 
-Am I the identity or is the handle? Only one lives on past me.
+Am I the identity or is it the handle? The latter lives well past me.
 
