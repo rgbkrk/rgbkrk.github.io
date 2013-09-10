@@ -160,8 +160,14 @@ ul.posts span {
   border: 0;
 }
 
+div .header {
+  border-bottom: 4px solid #eee;
+  margin-bottom: 1.1em;
+}
+
 .header a {
   transition: color 0.25s ease-in 0s;
+  font-size: 1.5em;
 }
 
 /*****************************************************************************/
