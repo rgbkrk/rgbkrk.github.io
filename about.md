@@ -3,9 +3,4 @@ layout: default
 title: About
 ---
 
-# Hi!
-
-I'm a programmer, a dad, but most of all a technology geek. I seek to automate to the fullest extent and help people however I can.
-
-There are lots of ideas brewing in my head. Now is the time for me to start getting them out, coding them up, and getting them running.
-
+Hi! I work at Rackspace. I love to help deploy/use technology,especially that which supports scientific research and studies. Largely speaking, I want to help the world through open source and the freedom of information/knowledge.
