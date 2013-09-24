@@ -272,5 +272,5 @@ It's simple enough to clone the repo across specific minions
 salt 'nbviewer-dev' git.clone /var/www/nbviewer git://github.com/ipython/nbviewer
 {% endhighlight %}
 
-It's also easy install specific commits. I'm really looking forward to grokking the [gitfs backend](https://salt.readthedocs.org/en/latest/topics/tutorials/gitfs.html) next, but I'm not sure what the right approach is.
+It's also easy to install specific commits. I'm really looking forward to grokking the [gitfs backend](https://salt.readthedocs.org/en/latest/topics/tutorials/gitfs.html) next, but I'm not sure what the right approach is.
 
