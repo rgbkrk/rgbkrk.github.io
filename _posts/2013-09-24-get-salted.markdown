@@ -13,7 +13,7 @@ After starting at [Rackspace](http://www.rackspace.com) I picked up [Chef](http:
 
 [Tom Hatch](https://twitter.com/thatch45), the original author of Salt, came and gave us a talk a couple months ago but I didn't have a chance to try it until this weekend. So far, I'm impressed.
 
-# Getting started
+## Getting Started
 
 The [walkthrough for Salt Stack](http://docs.saltstack.com/topics/tutorials/walkthrough.html) has you run through a bit of manual setup for installation. I imagine later I'll be able to [create infrastructure on demand](https://salt-cloud.readthedocs.org/en/latest/), provision it with the right resources and get services running all in one command, regardless of the provider. For now, I had to bootstrap the servers.
 
@@ -21,7 +21,7 @@ First I set up the master, which more or less is the commander across all your s
 
 Create at least two boxes (virtualbox, vagrant, Rackspace, AWS, physical boxes, whatever). Create more and you can broadcast your commands across minions. In fact, don't even bother with the tutorial if you're not going to launch more than one server. You won't grasp the raw power of salt without at least two minions.
 
-## Bootstrap the Master
+### Bootstrap the Master
 
 The quickest way to get the master started is to use the Salt Stack [bootstrap](http://docs.saltstack.com/topics/tutorials/modules.html) [script](http://bootstrap.saltstack.org). SSH in and run this one liner:
 
@@ -33,7 +33,7 @@ curl -L http://bootstrap.saltstack.org | sudo sh -s -- -M -N git develop
 
   `-N` requests not to install salt-minion
 
-## Bootstrap the Minions
+### Bootstrap the Minions
 
 The minions use the same script, but without the options above
 
@@ -77,7 +77,7 @@ master: 67.207.156.173 # Put the IP for your salt master here
 
 Clearly you really only need one line (`master: 67.207.156.173`). The text above is what gets installed by default using the bootstrap script, you can clean it up like any other Linux config file.
 
-## Start the minions!
+### Start the Minions!
 
 On each of the minions, run `salt-minion` as a daemon.
 
@@ -136,7 +136,7 @@ oOKfWkwPE7VVPXkjQfnsVfECAwEAAQ==
 
 You can verify that these match the public keys stored at `/etc/salt/pki/minion/minion.pub` on each of the minions. Then you can simply run `salt-key -A` to accept all the keys (with confirmation). It worries me a little that I can't check the public key while going through the confirmation.
 
-# Alright Minions, let's play
+## Alright Minions, Let's Play
 
 <img style="display:block; margin-left: auto; margin-right: auto;" src="http://i.imgur.com/LtfoAaK.png" />
 
@@ -262,7 +262,7 @@ nginx:
       - pkg: nginx # I feel like I'm repeating myself
 {% endhighlight %}
 
-# Looking forward
+## Looking Forward
 
 The features I'm most interested in are automated deployments with git. In particular, I want to be able to deploy based off of git hooks to production, staging, and development for the [IPython Notebook Viewer](http://nbviewer.ipython.org).
 
