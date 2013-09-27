@@ -11,7 +11,7 @@ title: rgbkrk
     		    <a href="{{ post.url }}">
     		        <h3>{{ post.title }} - {{ post.date | date: "%d %B %Y" }}</h3>
     		    </a>
-                      <div>{{ post.content | strip_html | truncatewords: 30 }}</div>
+                      <div>{{ post.excerpt | strip_html }}</div>
     		  </li>
     		{% endfor %}
   </ul>
