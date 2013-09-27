@@ -8,6 +8,29 @@
         <meta property="twitter:account_id" content="4503599627386357" />
         <meta name="viewport" content="width=device-width">
 
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@rgbkrk">
+        <meta name="twitter:creator" content="@rgbkrk">
+        <meta name="twitter:domain" content="blog.fict.io">
+
+        {% if page.title %}
+        <meta name="twitter:title" content="{{ page.title }}">
+        {% else %}
+        <meta name="twitter:title" content="{{ site.title }}">
+        {% endif %}
+
+        {% if page.path contains '_posts' %}
+        <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+        {% else %}
+        <meta name="twitter:description" content="blog.fict.io is @rgbkrk's place to blog">
+        {% endif %}
+
+        {% if page.image %}
+        <meta name="twitter:image:src" content="{{ page.image }}">
+        {% else %}
+        <meta name="twitter:image:src" content="https://0.gravatar.com/avatar/e76c7ebc9d2e8a4b840f13cd01946437?d=https%3A%2F%2Fidenticons.github.com%2F630d5e98504911faba07365b96933c74.png">
+        {% endif %}
+
         <link rel="icon" 
               type="image/png" 
               href="/favicon.png" />

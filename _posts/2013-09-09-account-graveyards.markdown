@@ -2,6 +2,7 @@
 layout: post
 title:  "Account Graveyards"
 date:   2013-09-09 13:13:13
+image:  http://i.imgur.com/L99KBtp.png
 categories: [anonymity, accounts,twitter,facebook,linkedin,graveyards]
 ---
 

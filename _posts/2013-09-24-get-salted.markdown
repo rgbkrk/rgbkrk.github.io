@@ -2,6 +2,7 @@
 layout: post
 title:  "Get Salted"
 date:   2013-09-24
+image: http://i.imgur.com/luCtHqH.png
 categories: [automation, command and control, infrastructure management, configuration management,salt,chef,saltstack, Salt Stack]
 ---
 
