@@ -3,6 +3,7 @@ layout: post
 title:  "Account Graveyards"
 date:   2013-09-09 13:13:13
 image:  http://i.imgur.com/L99KBtp.png
+description: It's really interesting finding some of the accounts I've created since starting to use the internet as a young kid. Some I don't expect to ever gain access to again or have any utility...
 categories: [anonymity, accounts,twitter,facebook,linkedin,graveyards]
 ---
 

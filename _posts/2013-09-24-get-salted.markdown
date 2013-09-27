@@ -3,6 +3,7 @@ layout: post
 title:  "Get Salted"
 date:   2013-09-24
 image: http://i.imgur.com/luCtHqH.png
+description: After starting at Rackspace I picked up Chef to work with the automated deployment folks. Chef is Ruby at it's core, which makes it very expressive and easy to work with. As a Pythonista though...
 categories: [automation, command and control, infrastructure management, configuration management,salt,chef,saltstack, Salt Stack]
 ---
 

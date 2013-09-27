@@ -3,6 +3,7 @@ layout: post
 title:  "Automating Used Book Inventories"
 date:   2013-06-15 09:36:54
 image:  http://i.imgur.com/kSmtbDI.jpg)
+description: I love books. New, used, tattered, torn, I don't care. Books are great. My wife and I buy the biggest quantity of books from used book stores. The greatest thing for us about used book stores is... 
 categories: [open source,used books,bookstores,inventory,inventories]
 ---
 

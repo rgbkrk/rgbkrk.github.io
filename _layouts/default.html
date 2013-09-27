@@ -19,8 +19,8 @@
         <meta name="twitter:title" content="{{ site.title }}">
         {% endif %}
 
-        {% if page.path contains '_posts' %}
-        <meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | replace: "&#8217;", "'" | replace: '&#8221;', "'" | replace: '&#34;', "'" | replace: '&#39;', "'" | truncatewords: 32 | truncate: 200 }}">
+        {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
         {% else %}
         <meta name="twitter:description" content="blog.fict.io is @rgbkrk's place to blog">
         {% endif %}
