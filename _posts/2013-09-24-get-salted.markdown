@@ -5,7 +5,7 @@ date:   2013-09-24
 categories: [automation, command and control, infrastructure management, configuration management,salt,chef,saltstack, Salt Stack]
 ---
 
-After starting at [Rackspace](http://www.rackspace.com) I picked up [Chef](http://www.opscode.com/chef/) to work with the automated deployment folks. Chef is Ruby at it's core, which makes it very expressive and easy to work with. As a Pythonista though, [something](http://http://saltstack.com/) kept pulling at me.
+After starting at [Rackspace](http://www.rackspace.com) I picked up [Chef](http://www.opscode.com/chef/) to work with the automated deployment folks. Chef is Ruby at it's core, which makes it very expressive and easy to work with. As a Pythonista though, [something](http://saltstack.com/) kept pulling at me.
 
 <img style="display:block; margin-left: auto; margin-right: auto;" src="http://i.imgur.com/luCtHqH.png" alt="Salt Stack" />
 
