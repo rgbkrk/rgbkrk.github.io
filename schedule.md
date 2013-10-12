@@ -11,6 +11,8 @@ This is just my upcoming conference wish-list, aggregated together.
 
 IPython Sprint: January 13-17
 
+SaltConf 2014: January 28-30
+
 ## April
 
 PyCon 2014: April 9-17
