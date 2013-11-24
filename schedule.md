@@ -19,6 +19,8 @@ PyCon 2014: April 9-17
 
 ## July
 
+SciPy - Austin, TX
+
 SciPy (Tutorials): July 6 - 7
 
 SciPy (Conference): July 8 - 10
@@ -28,6 +30,4 @@ SciPy (Sprints): July 11 - 12
 ## August
 
 DEF CON: August 7-10
-
-PyTexas: Mid-August?
 
