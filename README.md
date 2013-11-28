@@ -1,4 +1,6 @@
 rgbkrk.github.io
 ================
 
-Blog hosting on Github
+Just a little static blog, hosted on GitHub. The way it should be.
+
+Pull requests are awesome.
