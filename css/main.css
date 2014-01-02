@@ -196,7 +196,7 @@ div .header {
 
 .post code {
   border: 1px solid #eee;
-  padding: .4em;
+  /*padding: .4em;*/
 }
 
 .post pre code {
