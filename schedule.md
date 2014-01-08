@@ -3,8 +3,6 @@ layout: default
 title: Schedule
 ---
 
-This is just my upcoming conference wish-list, aggregated together.
-
 # 2014
 
 ## January
