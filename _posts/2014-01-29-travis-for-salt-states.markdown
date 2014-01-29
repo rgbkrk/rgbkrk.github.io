@@ -25,8 +25,10 @@ To test your states on Travis, we simply need to install salt, set up some light
 
 This configuration requires two files:
 
-* .travis/minion
-* .travis.yml
+* `.travis/minion` - Simple `/etc/salt/minion` file
+* `.travis.yml` - Basic setup for a simple states layout
+
+Of course, you'll also need to [enable the repository on travis](http://docs.travis-ci.com/user/getting-started/).
 
 Let's take these apart piece by piece. You can also go [straight to the travis.yml](#_in_whole).
 
