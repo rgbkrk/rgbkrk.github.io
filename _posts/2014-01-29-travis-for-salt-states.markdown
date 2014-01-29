@@ -34,6 +34,8 @@ Let's take these apart piece by piece. You can also go [straight to the travis.y
 
 ## `.travis/minion`
 
+This is pulled straight from the [standalone minion tutorial](http://docs.saltstack.com/topics/tutorials/standalone_minion.html).
+
 {% highlight yaml %}
 file_client: local
 file_roots:
