@@ -13,7 +13,6 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -112,6 +111,7 @@ ul.posts span {
 .site .header a {
   font-weight: bold;
   text-decoration: none;
+  border: none;
 }
 
 .site .header h1.title {
@@ -154,7 +154,8 @@ ul.posts span {
 }
 
 .site .footer .contact a {
-  color: #8085C1;
+  text-decoration: none;
+  border: none;
 }
 
 .site .footer .rss {
@@ -168,48 +169,12 @@ ul.posts span {
 }
 
 div .header {
-  border-bottom: 4px solid #eee;
+  border-bottom: 2px solid #111;
   margin-bottom: 1.1em;
 }
 
 .header a {
   transition: color 0.25s ease-in 0s;
   font-size: 1.5em;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #eee;
-  padding: .8em;
-  margin: .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #eee;
-  padding: .4em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+  text-decoration:none;
 }
