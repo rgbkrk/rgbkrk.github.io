@@ -117,6 +117,10 @@ script:
   - sudo salt-call state.show_highstate --local
 {% endhighlight %}
 
+# See a build
+
+To see this in action, check out [Build #1](https://travis-ci.org/ipython/salt-states-nbviewer/builds/17864495) for [nbviewer's salt states](http://github.com/ipython/salt-states-nbviewer).
+
 # Where's the pillar data?
 
 For this "deployment", we're cheating a bit in that there are default values for the pillar data. For something more reasonably complex, you'll want to create some pillar data to use, possibly [encrypting it for travis](http://docs.travis-ci.com/user/encryption-keys/).
