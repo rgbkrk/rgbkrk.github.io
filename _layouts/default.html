@@ -1,79 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>{{ page.title }}</title>
+<head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta property="twitter:account_id" content="4503599627386357" />
-        <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@rgbkrk">
-        <meta name="twitter:creator" content="@rgbkrk">
-        <meta name="twitter:domain" content="blog.fict.io">
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-        {% if page.title %}
-        <meta name="twitter:title" content="{{ page.title }}">
-        {% else %}
-        <meta name="twitter:title" content="{{ site.title }}">
-        {% endif %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta property="twitter:account_id" content="4503599627386357" />
+  <meta name="viewport" content="width=device-width">
 
-        {% if page.description %}
-        <meta name="twitter:description" content="{{ page.description }}">
-        {% else %}
-        <meta name="twitter:description" content="blog.fict.io is @rgbkrk's place to blog">
-        {% endif %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@rgbkrk">
+  <meta name="twitter:creator" content="@rgbkrk">
+  <meta name="twitter:domain" content="blog.fict.io">
 
-        {% if page.image %}
-        <meta name="twitter:image:src" content="{{ page.image }}">
-        {% else %}
-        <meta name="twitter:image:src" content="https://0.gravatar.com/avatar/e76c7ebc9d2e8a4b840f13cd01946437?d=https%3A%2F%2Fidenticons.github.com%2F630d5e98504911faba07365b96933c74.png">
-        {% endif %}
+  {% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
 
-        <link rel="icon" 
-              type="image/png" 
-              href="/favicon.png" />
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="blog.fict.io is @rgbkrk's place to blog">
+  {% endif %}
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  {% if page.image %}
+  <meta name="twitter:image:src" content="{{ page.image }}">
+  {% else %}
+  <meta name="twitter:image:src" content="https://0.gravatar.com/avatar/e76c7ebc9d2e8a4b840f13cd01946437?d=https%3A%2F%2Fidenticons.github.com%2F630d5e98504911faba07365b96933c74.png">
+  {% endif %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" 
+        type="image/png" 
+        href="/favicon.png" />
 
-        <link href="/webfonts/ss-social.css" rel="stylesheet" />
-    </head>
-    <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/"><img src="https://0.gravatar.com/avatar/e76c7ebc9d2e8a4b840f13cd01946437?d=https%3A%2F%2Fidenticons.github.com%2F630d5e98504911faba07365b96933c74.png" /></a></h1>
-              <a class="extra" href="/">home</a>
-              <a class="extra" href="/about">about</a>
-              <a class="extra ss-icon ss-social-circle" href="http://github.com/rgbkrk" >octocat</a>
-              <a class="extra ss-icon ss-social-circle" href="http://twitter.com/rgbkrk" >twitter</a>
-            </div>
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
 
-                {{ content }}
+</head>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Kyle Kelley<br />
-                  rgb<!--._.-->krk@gmail.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a class="ss-icon ss-social-circle" href="http://github.com/rgbkrk" >octocat</a> <a href="http://github.com/rgbkrk/">github.com/rgbkrk</a><br />
-                  <a class="ss-icon ss-social-circle" href="http://twitter.com/rgbkrk" >twitter</a> <a href="http://twitter.com/rgbkrk/">twitter.com/rgbkrk</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/rgbkrk">Twitter</a></li>
+          <li><a href="http://github.com/rgbkrk">GitHub</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      {{ content }}
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, using the <a href="https://github.com/redwallhp/solar-theme-jekyll">Solar Theme</a></p>
+  </footer>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
   <script type="text/javascript">
   
     var _gaq = _gaq || [];
@@ -88,5 +116,7 @@
     })();
   
   </script>
-    </body>
+
+
+</body>
 </html>

@@ -7,13 +7,13 @@ description: Get Travis CI to check the validity of your Salt States
 categories: [automation, travis, travis ci, configuration management, continuous integration, salt, chef, saltstack, Salt Stack]
 ---
 
-# Verifying salt states
-
-At least for the salt states that [the IPython Notebook Viewer](http://nbviewer.ipython.org) is using, it makes sense for us to be able to test the validity continuously, as 
+[The IPython Notebook Viewer](http://nbviewer.ipython.org) now uses salt for its infrastructure management, keeping the base portion of its deployment as [open source salt states](http://github.com/ipython/salt-states-nbviewer). Being able to test and verify these states with open source tools would be excellent as:
 
 1. Anyone can submit a pull request
-2. These states are pulled via Salt's gitfs backend
+2. The states are pulled via Salt's gitfs backend
 3. They're used in production (along with some other states + pillar data)
+
+# Verifying salt states
 
 Verifying salt states works simply if you're not using any amount of templating (jinja, etc.), grains, or pillar data. Just run the states through a YAML validation tool. For everything else (read as: everything), you need to mirror your production environment via vagrant, Jenkins, or some other CI tool.
 
@@ -28,41 +28,41 @@ This configuration requires two files:
 * .travis/minion
 * .travis.yml
 
-Let's take these apart piece by piece. You can also go [straight to the travis.yml]().
+Let's take these apart piece by piece. You can also go [straight to the travis.yml](#_in_whole).
 
 ## `.travis/minion`
 
-```
+{% highlight yaml %}
 file_client: local
 file_roots:
   base:
     - /srv/salt/states
-```
+{% endhighlight %}
 
 ## `.travis.yml` piece by piece
 
 ### Declare the language
 In this example, we'll use python for our travis box(semi-arbitrarily chosen because [nbviewer](http://nbviewer.ipython.org) and salt run on python). Later, I'd like to see if adding salt as a base image on travis could be [possible](https://github.com/travis-ci/travis-ci/issues/1549) (or feasible). Hit me up if you'd like to see this and use this yourself.
 
-```
+{% highlight yaml %}
 language: python
 python:
 - '2.7'
-```
+{% endhighlight %}
 
 ### Perform updates and install salt master
 
-```
+{% highlight yaml %}
 before_install:
   - sudo apt-get update
   - curl -L http://bootstrap.saltstack.org | sudo sh -s -- git develop
-```
+{% endhighlight %}
 
 ### "Install" the states
 
 We'll copy `.travis/minion` over to `/etc/salt/minion`, copy the states over, restart, and spit out some debugging information.
 
-```
+{% highlight yaml %}
 install:
   # Copy these states
   - sudo mkdir -p /srv/salt/states
@@ -75,20 +75,20 @@ install:
 
   # See what kind of travis box you're on
   - sudo salt-call grains.items --local
-```
+{% endhighlight %}
 
 ### High state
 
 As a first pass, we can run `state.show_highstate`. Since this seems to always return 0, we'll need to make sure this returned appropriately. For now you'll want to check the output. When I figure out an ideal way to verify this, I'll update this post.
 
-```
+{% highlight yaml %}
 script:
   - sudo salt-call state.show_highstate --local
-```
+{% endhighlight %}
 
 ## `.travis.yml` in whole
 
-```
+{% highlight yaml %}
 language: python
 python:
 - '2.7'
@@ -113,7 +113,7 @@ install:
 
 script:
   - sudo salt-call state.show_highstate --local
-```
+{% endhighlight %}
 
 # Where's the pillar data?
 
