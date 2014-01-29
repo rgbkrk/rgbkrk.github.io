@@ -21,7 +21,7 @@ What if we could do some light validation (or more) on travis CI?
 
 # Validating Salt States on Travis CI
 
-To get setup on Travis, we simply need to install salt, set up some light configuration, and use `salt-call --local` to run salt modules.
+To test your states on Travis, we simply need to install salt, set up some light configuration, and use `salt-call --local` to run salt modules.
 
 This configuration requires two files:
 
