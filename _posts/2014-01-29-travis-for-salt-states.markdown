@@ -133,9 +133,9 @@ It would be really nice to be able to:
 
 * Run multiple minions on the same box as needed
 * Use a pre-fab travis box, which has a precursor:
-* Create a travis box for salt, which requires:
- * Adding salt to [travis-build](https://github.com/travis-ci/travis-build)
- * Adding a cookbook for salt to [travis-cookbooks](https://github.com/travis-ci/travis-cookbooks)
- * Adding [documentation on how to use it](https://github.com/travis-ci/travis-ci.github.com/tree/master/docs/user/languages)
+* Create a travis box for salt:
+ - Add salt to [travis-build](https://github.com/travis-ci/travis-build)
+ - Add a cookbook for salt to [travis-cookbooks](https://github.com/travis-ci/travis-cookbooks)
+ - Add [documentation on how to use it](https://github.com/travis-ci/travis-ci.github.com/tree/master/docs/user/languages)
 * Create a tool to generate the travis config you need, automatically (or add it on to the travis rubygem)
 
