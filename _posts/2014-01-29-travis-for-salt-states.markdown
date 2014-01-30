@@ -21,6 +21,8 @@ What if we could do some light validation (or more) on travis CI?
 
 # Validating Salt States on Travis CI
 
+<img style="display:block; margin-left: auto; margin-right: auto;" src="http://i.imgur.com/FW9Tjgb.png" alt="Travis" />
+
 To test your states on Travis, we simply need to install salt, set up some light configuration, and use `salt-call --local --retcode-passthrough` to run salt modules.
 
 This configuration requires two files:
@@ -121,6 +123,10 @@ script:
 
 # See a build
 
+After your build runs, you can drill down into each line that was run from the `.travis.yml` file:
+
+<img style="display:block; margin-left: auto; margin-right: auto;" src="http://i.imgur.com/kd3zalP.png" alt="nbviewer's salt states on travis" />
+
 To see this in action, check out [Build #1](https://travis-ci.org/ipython/salt-states-nbviewer/builds/17864495) for [nbviewer's salt states](http://github.com/ipython/salt-states-nbviewer).
 
 # Where's the pillar data?
@@ -132,10 +138,12 @@ For this "deployment", we're cheating a bit in that there are default values for
 It would be really nice to be able to:
 
 * Run multiple minions on the same box as needed
-* Use a pre-fab travis box, which has a precursor:
-* Create a travis box for salt:
- - Add salt to [travis-build](https://github.com/travis-ci/travis-build)
- - Add a cookbook for salt to [travis-cookbooks](https://github.com/travis-ci/travis-cookbooks)
- - Add [documentation on how to use it](https://github.com/travis-ci/travis-ci.github.com/tree/master/docs/user/languages)
 * Create a tool to generate the travis config you need, automatically (or add it on to the travis rubygem)
+* Use a pre-fab travis box, which has a precursor:
+* Create a travis box for salt
+
+Creating a travis box for salt [likely requires](https://github.com/travis-ci/travis-ci/issues/1549):
+* Adding salt to [travis-build](https://github.com/travis-ci/travis-build)
+* Adding a cookbook for salt to [travis-cookbooks](https://github.com/travis-ci/travis-cookbooks)
+* Adding [documentation on how to use it](https://github.com/travis-ci/travis-ci.github.com/tree/master/docs/user/languages)
 
