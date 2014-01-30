@@ -21,7 +21,7 @@ What if we could do some light validation (or more) on travis CI?
 
 # Validating Salt States on Travis CI
 
-To test your states on Travis, we simply need to install salt, set up some light configuration, and use `salt-call --local` to run salt modules.
+To test your states on Travis, we simply need to install salt, set up some light configuration, and use `salt-call --local --retcode-passthrough` to run salt modules.
 
 This configuration requires two files:
 
@@ -83,11 +83,11 @@ install:
 
 ### High state
 
-As a first pass, we can run `state.show_highstate`. Since this seems to always return 0, we'll need to make sure this returned appropriately. For now you'll want to check the output. When I figure out an ideal way to verify this, I'll update this post.
+Show the highstate, making sure to pass the retcode through. It might be wise to show the lowstate instead of or in addition to, since it shows the final output after the data has been "compiled".
 
 {% highlight yaml %}
 script:
-  - sudo salt-call state.show_highstate --local
+  - sudo salt-call state.show_highstate --local --retcode-passthrough
 {% endhighlight %}
 
 ## `.travis.yml` in whole
@@ -116,7 +116,7 @@ install:
   - sudo salt-call grains.items --local
 
 script:
-  - sudo salt-call state.show_highstate --local
+  - sudo salt-call state.show_highstate --local --retcode-passthrough
 {% endhighlight %}
 
 # See a build
@@ -137,5 +137,5 @@ It would be really nice to be able to:
  * Adding salt to [travis-build](https://github.com/travis-ci/travis-build)
  * Adding a cookbook for salt to [travis-cookbooks](https://github.com/travis-ci/travis-cookbooks)
  * Adding [documentation on how to use it](https://github.com/travis-ci/travis-ci.github.com/tree/master/docs/user/languages)
-* Create a tool to generate the config you need, automatically (or add it on to the travis rubygem)
+* Create a tool to generate the travis config you need, automatically (or add it on to the travis rubygem)
 
