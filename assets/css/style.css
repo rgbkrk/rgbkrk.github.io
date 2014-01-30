@@ -39,11 +39,11 @@ body {
 
 a, a:active, a:visited {
 	text-decoration: none;
-	border-bottom: 1px solid #839496;
+	border-bottom: 1px solid #c7f464;
 	padding-bottom: 2px;
 }
 a:hover {
-	background-color: #839496;
+	background-color: #c7f464;
 	color: #000000;
 }
 
@@ -275,7 +275,7 @@ img.center {
   line-height: 1.7;
 }
  
-.icon-cloud:before { content: '\2601'; }
+.icon-cloud:before { content: '\2601'; color: #4ecdc4; }
 .icon-anchor:before { content: '\2601'; }
 .icon-anchor {
 	font-size: 65%;
