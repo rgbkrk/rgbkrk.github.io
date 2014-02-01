@@ -9,7 +9,7 @@ categories: [automation, command and control, infrastructure management, configu
 
 After starting at [Rackspace](http://www.rackspace.com) I picked up [Chef](http://www.opscode.com/chef/) to work with the automated deployment folks. Chef is Ruby at its core, which makes it very expressive and easy to work with. As a Pythonista though, [something](http://saltstack.com/) kept pulling at me.
 
-<img style="display:block; margin-left: auto; margin-right: auto;" src="https://1.gravatar.com/avatar/8e25be5fcc652c85b518a5755986615f" alt="Salt Stack" />
+<img style="display:block; margin-left: auto; margin-right: auto;" src="http://imgur.com/sVX7eBE" alt="Salt Stack" />
 
 [Salt Stack](http://saltstack.com/) is a collection of free and open source infrastructure management software, designed to make deploying services a breeze. It's also a distributed remote execution system so you can execute arbitrary commands across all your nodes (or an arbitrary selection of them).
 
