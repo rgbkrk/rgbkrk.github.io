@@ -139,7 +139,6 @@ It would be really nice to be able to:
 
 * Run multiple minions on the same box as needed
 * Create a tool to generate the travis config you need, automatically (or add it on to the travis rubygem)
-* Use a pre-fab travis box, which has a precursor:
 * Create a travis box for salt
 
 Creating a travis box for salt [likely requires](https://github.com/travis-ci/travis-ci/issues/1549):
