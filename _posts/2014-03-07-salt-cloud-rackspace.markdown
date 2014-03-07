@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Salt Cloud with Rackspace"
-date:   2014-01-29
+date:   2014-03-07
 image: http://i.imgur.com/0gclhEZ.jpg
 description: Use the OpenStack provider with salt-cloud to build boxes on Rackspace.
 categories: [automation, cloud, salt-cloud, configuration management, continuous integration, salt, saltstack, Salt Stack]
