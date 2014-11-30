@@ -211,7 +211,7 @@ $ upload < setx
 
 In action:
 
-[![final.gif](https://d23f6h5jpj26xu.cloudfront.net/wwijp23ztne0tw_small.gif)](http://img.svbtle.com/wwijp23ztne0tw.gif)
+[![](https://d23f6h5jpj26xu.cloudfront.net/wwijp23ztne0tw_small.gif)](http://img.svbtle.com/wwijp23ztne0tw.gif)
 
 ---------
 

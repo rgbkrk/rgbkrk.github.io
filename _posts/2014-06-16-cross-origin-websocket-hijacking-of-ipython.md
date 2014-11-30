@@ -15,11 +15,11 @@ permalink: "/cross-origin-websocket-hijacking-of-ipython/"
 
 For those that don't know, the IPython Notebook is an in-browser application for interactive computing where you can combine code, prose, mathematics, plots, and other rich media into a single document as well as  [share with peers](http://nbviewer.ipython.org/):
 
-[![9_home_fperez_prof_grants_1207-sloan-ipython_proposal_fig_ipython-notebook-specgram.png](https://d23f6h5jpj26xu.cloudfront.net/rxluj5w6w1li9q_small.png)](http://img.svbtle.com/rxluj5w6w1li9q.png)
+![](https://d23f6h5jpj26xu.cloudfront.net/rxluj5w6w1li9q_small.png)
 
 The overall setup makes interactively working with code and data a breeze. Behind the scenes, the browser is communicating with IPython kernels (execution environments) over websockets.
 
-[![kernel_diagram.png](https://d23f6h5jpj26xu.cloudfront.net/huzp0asjwourg_small.png)](http://img.svbtle.com/huzp0asjwourg.png)
+![](https://d23f6h5jpj26xu.cloudfront.net/huzp0asjwourg_small.png)
 
 These websockets make communication with the kernels very quick, but they have additional security concerns.
 
@@ -102,11 +102,11 @@ If you're stuck on an old version and haven't upgraded, please do! You'll also g
 
 ## Lightning Talk at SciPy 2014
 
-[![scipy2014_logo_simple.png](https://d23f6h5jpj26xu.cloudfront.net/vg8f9kjehosdcq_small.png)](http://img.svbtle.com/vg8f9kjehosdcq.png)
+![](https://d23f6h5jpj26xu.cloudfront.net/vg8f9kjehosdcq_small.png)
 
 The inimitable [Paul Ivanov](https://twitter.com/ivanov) let me use him on stage as part of the exploit's demonstration. Paul loves Philz Coffee (it is, in fact, incredible coffee), so I set up a phishing site just for him:
 
-[![Screen Shot 2014-07-12 at 10.46.00 PM.png](https://d23f6h5jpj26xu.cloudfront.net/wsy2vdai9lbbxg_small.png)](http://img.svbtle.com/wsy2vdai9lbbxg.png)
+![](https://d23f6h5jpj26xu.cloudfront.net/wsy2vdai9lbbxg_small.png)
 
 While I was able to show Paul his kernel IDs in an iframe, normal CORS protections prevented my javascript from grabbing the IDs directly. Paul had to enter the "gift card code" (a kernel id for a running kernel) manually.
 

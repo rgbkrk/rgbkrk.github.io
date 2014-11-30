@@ -58,7 +58,7 @@ We're working to make this compatible with any IPython notebook Docker container
 
 ## Tutorials! Books! Learning!
 
-[![ml-header-home-blinking.gif](https://d23f6h5jpj26xu.cloudfront.net/rujc2e9z7jada_small.gif)](http://img.svbtle.com/rujc2e9z7jada.gif)
+![](https://d23f6h5jpj26xu.cloudfront.net/rujc2e9z7jada_small.gif)
 
 [Andrew Odewahn](https://github.com/odewahn), the CTO of O'Reilly Media, and Paco Nathan, mad scientist, have been [driving efforts](https://github.com/odewahn/docker-at-oreilly) to make Dockerfiles & Docker images [paired with books](https://github.com/ceteri/jem-docker). They're doing fantastic work so that you can type:
 
@@ -78,7 +78,7 @@ Fast forward many PRs, some last minute coordinating of a trip to Strata, and we
 
 Once we got to a stable state and Andrew put up the Just Enough Math server to Strata, we did some load testing which was a combination of slimerjs/phantomjs and [Min's nbbot](https://github.com/minrk/nbbot) (that he wrote just for this). It was clear we were going to need spawn pools in the long run (containers ready to be routed) and that we had some socket and file descriptor issues.
 
-![]([![5188235_300x300.jpg](https://d23f6h5jpj26xu.cloudfront.net/qvrhxbeay9zxpq_small.jpg)](http://img.svbtle.com/qvrhxbeay9zxpq.jpg))
+![](https://d23f6h5jpj26xu.cloudfront.net/qvrhxbeay9zxpq_small.jpg)
 
 The morning of PyData at Strata, Brian Granger comes over to me before his and Fernando's opening talks, "Is tmpnb ready?" I can only respond "Yes? Maybe. Sure, why not." As Brian walks back up to the stage, worry comes over me as I had not applied the updates to the currently deployed system. "Really hope this works." What preceded was 30 minutes of relative bliss as 5... 10... 20... 40... 80 users logged on to tmpnb.org. Everyone was able to follow along with the notebooks themselves, clicking and opening the notebooks that Fernando was running through. We got our first tweet as this was going on
 
@@ -159,7 +159,7 @@ Needless to say, that went flawlessly (besides my own laptop display issues) and
 
 ## Put some Teeth on that Cloud
 
-[![teeth-logo.png](https://d23f6h5jpj26xu.cloudfront.net/j98s5ozwffseya_small.png)](http://img.svbtle.com/j98s5ozwffseya.png)
+![](https://d23f6h5jpj26xu.cloudfront.net/j98s5ozwffseya_small.png)
 
 Currently I've been deploying this on fairly hefty machines, subdividing the machines up to give individual users (roughly) the same amount of storage they would come to expect on a VPS (virtual private server). One of Rackspace's [OnMetal](http://www.rackspace.com/cloud/servers/onmetal/) Memory boxes has half a terabyte of RAM, so I figured I could subdivide that up into 512 MB chunks. With 1000 users, that gives us roughly 12 GB for the main OS.
 
