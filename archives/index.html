@@ -1,0 +1,48 @@
+---
+layout: default
+title: Archives
+---
+
+<div class="teaserimage">
+    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
+        Teaser Image
+    </div>
+</div>
+
+<header class="blog-header">
+    {% if site.logo %}
+      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
+    {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+      <a href="/about/">About</a>
+    </div>
+</header>
+
+<main class="content" role="main">
+
+      <div class="cf frame">
+      {% for post in site.posts %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+            </header>
+            <div class="post-meta">
+              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+            </div>
+          <div>
+        </article>
+      {% endfor %}
+    </div>
+
+</main>

@@ -1,0 +1,56 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "Lambda Ops"
+description: > # this means to ignore newlines until "email:"
+   Build more. Play more.
+
+email: rgbkrk@gmail.com
+#blog logo
+logo: "/assets/images/logo.jpg"
+# blog cover
+cover: "/assets/images/cover.jpg"
+
+name: 'Kyle Kelley'
+author: 'Kyle Kelley'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "https://lambdaops.com"
+baseurl: ""
+
+permalink: pretty
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/rgbkrk
+    desc: Ponder following me on Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/rgbkrk
+    desc:	Marvel at my warez
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
+
