@@ -2,8 +2,7 @@
 layout: post
 title:  "One Weird Kernel Trick"
 date:   2014-06-16 20:01
-categories: IPython, Jupyter
-tags: featured
+categories: IPython, Jupyter, security
 permalink: "/cross-origin-websocket-hijacking-of-ipython/"
 ---
 
