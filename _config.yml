@@ -11,7 +11,7 @@ email: rgbkrk@gmail.com
 #blog logo
 logo: "/assets/images/logo.jpg"
 # blog cover
-#cover: "/assets/images/cover.jpg"
+cover: "/assets/images/cover.jpg"
 
 name: 'Kyle Kelley'
 author: 'Kyle Kelley'
