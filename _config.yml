@@ -3,15 +3,15 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Lambda Ops"
+title: "Kyle Kelley"
 description: > # this means to ignore newlines until "email:"
-   Build more. Play more.
+   Break things and enjoy life.
 
 email: rgbkrk@gmail.com
 #blog logo
 logo: "/assets/images/logo.jpg"
 # blog cover
-cover: "/assets/images/cover.jpg"
+#cover: "/assets/images/cover.jpg"
 
 name: 'Kyle Kelley'
 author: 'Kyle Kelley'
