@@ -31,11 +31,11 @@ layout: default
 <main class="content" role="main">
 
     {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Read this first.</span></h5>
 
     <div class="container featured">
-      {% for post in site.tags.featured %}
+      {% assign post = site.tags.featured.first %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <h5 class="index-headline featured"><span>Read this first</span></h5>
           <div class="article-item">
             <header class="post-header">
               <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
@@ -49,10 +49,8 @@ layout: default
             </div>
           <div>
         </article>
-      {% endfor %}
     </div>
 
-    <h5 class="index-headline normal"><span>Regular</span></h5>
     {% endif %}
 
     <div class="cf frame">
