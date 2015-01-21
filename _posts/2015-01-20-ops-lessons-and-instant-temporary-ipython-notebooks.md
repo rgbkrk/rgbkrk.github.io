@@ -5,8 +5,7 @@ date:   2015-01-20 20:01
 categories: Encryption, messaging
 permalink: "/ops-lessons-and-instant-temporary-ipython-jupyter-notebooks/"
 ---
-
-As I've gone [at length about previously](http://lambdaops.com/ipythonjupyter-tmpnb-debuts/), the Jupyter project has been working on several different experiments to provide the IPython Notebook instantly with collaborators from IPython/Jupyter, Rackspace, Nature, and O'Reilly Media. It's been a blast and I badly want to write about some lessons learned.
+As I've gone on [at length about previously](http://lambdaops.com/ipythonjupyter-tmpnb-debuts/), the Jupyter project has been working on several different experiments to provide the IPython Notebook instantly with collaborators from IPython/Jupyter, Rackspace, Nature, and O'Reilly Media. It's been a blast and I badly want to write about some lessons learned.
 
 We prepped for and delivered on a big demo as part of a [Nature article on IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) by [Helen Shen](https://twitter.com/HelenShenWrites). The impetus behind the demo was to show off the IPython notebook to readers in an interactive format. What better way than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
 
@@ -90,6 +89,8 @@ Honestly, I should know this from working on the [notebook viewer](http://nbview
 ```
 https://tmpnb.org/user/FKlVK3haOQRF/notebooks/SharingEffects.ipynb
 ```
+
+That link *won't actually work* for you, because the server is long gone. After a user has left their notebook server, it gets culled. Gone. Caput. Killed. Need to make room for new users and have plenty of fresh sandboxes.
 
 While I would *love* to enable people to do this, we probably need an alternate way to share these temporary calculations. I've used it myself and [wished for a way to get it directly on to nbviewer](https://twitter.com/rgbkrk/status/557942542063652864). Posting static content isn't the same as giving someone the ability to remix your code though. For now, this works and has no bearing on the Nature demo. 
 
