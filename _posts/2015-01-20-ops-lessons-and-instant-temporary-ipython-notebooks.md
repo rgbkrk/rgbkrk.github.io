@@ -5,9 +5,9 @@ date:   2015-01-20 20:01
 categories: Encryption, messaging
 permalink: "/ops-lessons-and-instant-temporary-ipython-jupyter-notebooks/"
 ---
-As I've gone on [at length about previously](http://lambdaops.com/ipythonjupyter-tmpnb-debuts/), the Jupyter project has been working on several different experiments to provide the IPython Notebook instantly with collaborators from IPython/Jupyter, Rackspace, Nature, and O'Reilly Media. It's been a blast and I badly want to write about some lessons learned.
+For the past four months, the Jupyter team -- in collaboration with Rackspace, Nature, and O'Reilly Media -- has been working on several experiments to give developers, data scientists, and researchers instant access to IPython Notebooks.
 
-We prepped for and delivered on a big demo as part of a [Nature article on IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) by [Helen Shen](https://twitter.com/HelenShenWrites). The impetus behind the demo was to show off the IPython notebook to readers in an interactive format. What better way than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
+Our biggest experiment so far was a demo with Nature. The journal published [an article that featured IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) as a tool for scientists to share data and code. The Jupyter team wanted to show off the notebooks to readers in an interactive format. What better way to than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
 
 [![Screenshot 2015-01-15 21.17.15.png](https://d23f6h5jpj26xu.cloudfront.net/nvqcj7okftoqw_small.png)](http://img.svbtle.com/nvqcj7okftoqw.png)
 
