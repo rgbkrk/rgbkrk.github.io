@@ -6,9 +6,9 @@ categories: Encryption, messaging
 permalink: "/ops-lessons-and-instant-temporary-ipython-jupyter-notebooks/"
 ---
 
-As I've gone at length about previously, I've been working on [Instant Temporary Notebooks](http://lambdaops.com/ipythonjupyter-tmpnb-debuts/) with collaborators from IPython/Jupyter, Rackspace, Nature, and O'Reilly Media. It's been a blast and I badly want to write about some lessons learned.
+As I've gone [at length about previously](http://lambdaops.com/ipythonjupyter-tmpnb-debuts/), the Jupyter project has been working on several different experiments to provide the IPython Notebook instantly with collaborators from IPython/Jupyter, Rackspace, Nature, and O'Reilly Media. It's been a blast and I badly want to write about some lessons learned.
 
-We've prepped for and delivered on a big demo as part of a [Nature article on IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) by [Helen Shen](https://twitter.com/HelenShenWrites). The impetus behind the demo was to show off the IPython notebook to readers in an interactive format. What better way than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
+We prepped for and delivered on a big demo as part of a [Nature article on IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) by [Helen Shen](https://twitter.com/HelenShenWrites). The impetus behind the demo was to show off the IPython notebook to readers in an interactive format. What better way than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
 
 [![Screenshot 2015-01-15 21.17.15.png](https://d23f6h5jpj26xu.cloudfront.net/nvqcj7okftoqw_small.png)](http://img.svbtle.com/nvqcj7okftoqw.png)
 
@@ -103,8 +103,11 @@ This did introduce problems with initial spawns (Docker failing) and made our [i
 
 We learned this the hard way on boot up, having to code around responses from the API and making sure that we block on our own server instead of Docker.
 
-## Closing up
+## tmpnb in the wild
 
 We didn't expect to build a system that would let people create user environments they could use for teaching and tutorials. I'm incredibly humbled that [Nikolay Koldunov](https://twitter.com/koldunovn) used it for [a tutorial at YaC 2014](http://koldunov.net/?p=950) while it was still in its infancy.
 
-It's my hope that people will continue to launch temporary notebook servers, backed by their own tutorial/demo/class content.
+It's my hope that people will continue to [launch temporary notebook servers](https://tmpnb.org), backed by their own tutorial/demo/class content.
+
+* [tmpnb repository](https://github.com/jupyter/tmpnb) - Run your own, join us
+* [Demo images used on tmpnb.org](https://github.com/jupyter/docker-demo-images) - Make suggestions about the running system
