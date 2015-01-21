@@ -10,7 +10,7 @@ For the past four months, the Jupyter developers -- in collaboration with Racksp
 
 Our biggest experiment so far was a demo with Nature. The journal published [an article that featured IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) as a tool for scientists to share data and code. The Jupyter team wanted to show off the notebooks to readers in an interactive format. What better way to than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
 
-[![Screenshot 2015-01-15 21.17.15.png](https://d23f6h5jpj26xu.cloudfront.net/nvqcj7okftoqw_small.png)](http://img.svbtle.com/nvqcj7okftoqw.png)
+[![The Nature Demo Had Interactive Widgets!](https://d23f6h5jpj26xu.cloudfront.net/nvqcj7okftoqw_small.png)](http://img.svbtle.com/nvqcj7okftoqw.png)
 
 To do this, we created a [temporary notebook service](https://github.com/jupyter/tmpnb).
 
