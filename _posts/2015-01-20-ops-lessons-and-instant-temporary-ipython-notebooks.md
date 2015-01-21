@@ -20,7 +20,7 @@ To do this, we created a [temporary notebook service](https://github.com/jupyter
 
 When a user visits a tmpnb, they're actually hitting an [http proxy](https://github.com/jupyter/configurable-http-proxy) which routes initial traffic to tmpnb's orchestrator. From here a new user container is set up and a new route (e.g. `/user/fX104pghHEha/tree`) is assigned on the proxy.
 
-[![tmpnb-setup.gif](https://d23f6h5jpj26xu.cloudfront.net/z9gjan4yftabyq_small.gif)](http://img.svbtle.com/z9gjan4yftabyq.gif)
+[![Users just drive by happily](https://d23f6h5jpj26xu.cloudfront.net/z9gjan4yftabyq_small.gif)](http://img.svbtle.com/z9gjan4yftabyq.gif)
 
 Working our way up to the Nature demo, we had several live alpha prototypes around the same time at Strata NYC 2014:
 
@@ -99,7 +99,7 @@ While I would *love* to enable people to do this, we probably need an alternate 
 
 Docker can only boot and route so many containers so quickly. To mitigate this, we created a pool of ready to go userland containers. [@smashwilson](https://github.com/smashwilson) came in and [added the spawn pools](https://github.com/jupyter/tmpnb/pull/69) after we dangled the problem in front of him.
 
-[![pooling.gif](https://d23f6h5jpj26xu.cloudfront.net/jlvadowzumttlg_small.gif)](http://img.svbtle.com/jlvadowzumttlg.gif)
+[![The Notebook Grid in Action](https://d23f6h5jpj26xu.cloudfront.net/jlvadowzumttlg_small.gif)](http://img.svbtle.com/jlvadowzumttlg.gif)
 
 This did introduce problems with initial spawns (Docker failing) and made our [introductory experience with a bit to be desired](https://github.com/jupyter/tmpnb/issues/87).
 
