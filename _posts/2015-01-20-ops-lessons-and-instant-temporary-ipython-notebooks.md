@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ops Lessons and Instant Temporary IPython Notebooks"
+title:  "Ops Lessons on Instant Temporary IPython Notebooks"
 date:   2015-01-20 14:59
 categories: ops, ipython, ephemeral, temporary, tmpnb, notebooks, lessons, jupyter
 tags: featured
