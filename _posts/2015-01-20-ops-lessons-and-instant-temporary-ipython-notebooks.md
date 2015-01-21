@@ -11,9 +11,9 @@ Our biggest experiment so far was a demo with Nature. The journal published [an 
 
 [![Screenshot 2015-01-15 21.17.15.png](https://d23f6h5jpj26xu.cloudfront.net/nvqcj7okftoqw_small.png)](http://img.svbtle.com/nvqcj7okftoqw.png)
 
-To do this, we created a [temporary notebook service](https://tmpnb.org) in collaboration with the IPython/Jupyter team.
+To do this, we created a [temporary notebook service](https://github.com/jupyter/tmpnb).
 
-### How does this temporary notebook service work?
+### How does the temporary notebook service work?
 
 [tmpnb](https://github.com/jupyter/tmpnb) is a service that spawns new notebook servers, backed by Docker, for each user. Everyone gets their own sandbox to play in, assigned a unique path.
 
