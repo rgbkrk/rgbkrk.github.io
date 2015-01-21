@@ -3,7 +3,6 @@ layout: post
 title:  "Instant Temporary IPython Notebooks"
 date:   2014-11-02 20:01
 categories: IPython, Jupyter
-tags: featured
 permalink: "/ipythonjupyter-tmpnb-debuts/"
 ---
 
