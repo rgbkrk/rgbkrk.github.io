@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Ops Lessons and Instant Temporary IPython Notebooks"
-date:   2015-01-20 20:01
-categories: Encryption, messaging
+date:   2015-01-20 14:59
+categories: ops, ipython, ephemeral, temporary, tmpnb, notebooks, lessons, jupyter
+tags: featured
 permalink: "/ops-lessons-and-instant-temporary-ipython-jupyter-notebooks/"
 ---
 For the past four months, the Jupyter team -- in collaboration with Rackspace, Nature, and O'Reilly Media -- has been working on several experiments to give developers, data scientists, and researchers instant access to IPython Notebooks.
