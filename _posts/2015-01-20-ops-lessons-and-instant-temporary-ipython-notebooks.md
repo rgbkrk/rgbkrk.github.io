@@ -6,7 +6,7 @@ categories: ops, ipython, ephemeral, temporary, tmpnb, notebooks, lessons, jupyt
 tags: featured
 permalink: "/ops-lessons-and-instant-temporary-ipython-jupyter-notebooks/"
 ---
-For the past four months, the Jupyter developers -- in collaboration with Rackspace, Nature, and O'Reilly Media -- have been working on several experiments to give developers, data scientists, and researchers instant access to IPython Notebooks.
+For the past four months, the Jupyter developers -- in collaboration with [Rackspace](https://developer.rackspace.com), Nature, and O'Reilly Media -- have been working on several experiments to give developers, data scientists, and researchers instant access to IPython Notebooks.
 
 Our biggest experiment so far was a demo with Nature. The journal published [an article that featured IPython Notebooks](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261) as a tool for scientists to share data and code. The Jupyter team wanted to show off the notebooks to readers in an interactive format. What better way to than to [provide a live notebook server to readers on demand](http://www.nature.com/news/ipython-interactive-demo-7.21492)?
 
