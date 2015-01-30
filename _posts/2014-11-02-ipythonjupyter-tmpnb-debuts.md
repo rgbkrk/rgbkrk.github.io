@@ -173,3 +173,7 @@ Thank you to Richard Van Noorden, Brian Granger, and Min RK for spawning the ini
 --------------------
 
 Comments on [Reddit via `/r/python`](http://www.reddit.com/r/Python/comments/2l3gk4/creating_an_instant_temporary_ipython_notebook/) or [on Twitter](https://twitter.com/rgbkrk/status/529005294064775168).
+
+### Read this next
+
+[Ops Lessons on Instant Temporary IPython Notebooks](/ops-lessons-and-instant-temporary-ipython-jupyter-notebooks/)
