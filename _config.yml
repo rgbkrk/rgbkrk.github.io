@@ -1,5 +1,4 @@
 # Build settings
-markdown: redcarpet
 highlighter: pygments
 
 # Site settings
@@ -46,4 +45,3 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
-
