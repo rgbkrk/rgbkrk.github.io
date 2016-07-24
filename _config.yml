@@ -1,6 +1,3 @@
-# Build settings
-highlighter: pygments
-
 # Site settings
 title: "Kyle Kelley"
 description: > # this means to ignore newlines until "email:"
