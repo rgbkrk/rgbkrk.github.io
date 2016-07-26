@@ -15,4 +15,4 @@ The theme is based on [@dirkfabisch](https://github.com/dirkfabisch)'s [mediator
 You should have a server up and running locally at <http://localhost:4000>.
 
 
-Woo.
+Woot.
